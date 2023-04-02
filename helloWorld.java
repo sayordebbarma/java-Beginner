@@ -79,5 +79,18 @@ public class helloWorld {
         System.out.print("Which class are u in? Ans: ");
         String currentClass = scanner.next();
         System.out.println("Okk... U r in class " + currentClass);
+
+        //if statements
+        int income = 120_00;
+        if (income > 100_00)
+            System.out.println("you are the Senior employee");
+        else
+            System.out.println("junior employee");
+
+        //simplifying if statements
+        int salary = 500_000;
+        boolean highSalary = (salary < 600_000);
+        System.out.println("high salary earning: " + highSalary);
+
     }
   }
